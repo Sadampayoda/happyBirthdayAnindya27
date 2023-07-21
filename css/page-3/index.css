@@ -1,0 +1,104 @@
+@keyframes slide-up-down{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50%);
+    }
+}
+
+
+
+
+.objek-naik-turun {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #833a4a;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../img/page-3/balon.png");
+    width: 75px;
+    height: 75px;
+    animation: slide-up-down 8s ease-in-out infinite;
+    margin-right: 60px;
+    /* margin-bottom: -200px; */
+}
+
+.objek-naik-turun-1 {
+    animation: slide-up-down 6s ease-in-out infinite;
+    /* margin-right: 60px; */
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #833a4a;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../img/page-3/balon.png");
+    width: 200px;
+    height: 200px;
+}
+
+.objek-naik-turun-2 {
+    animation: slide-up-down 9s ease-in-out infinite;
+    margin-top: 30px;
+    /* margin-right: 60px; */
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #833a4a;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../img/page-3/balon.png");
+    width: 100px;
+    height: 100px;
+}
+
+.objek-naik-turun-tengah {
+    animation: slide-up-down 7s ease-in-out infinite;
+    margin-left: 60px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #833a4a;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../img/page-3/balon.png");
+    width: 175px;
+    height: 175px;
+}
+.objek-naik-turun-tengah-1 {
+    animation: slide-up-down 7s ease-in-out infinite;
+    margin-left: 60px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #833a4a;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../img/page-3/balon.png");
+    width: 50px;
+    height: 50px;
+}
+
+.objek-naik-turun-kiri {
+    animation: slide-up-down 6s ease-in-out infinite;
+    margin-left: -100px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #833a4a;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../img/page-3/balon.png");
+    width: 120px;
+    height: 120px;
+    padding-top: 120px;
+}
+
+
+
+#page3{
+    height: 100vh;
+    background-color: #833a4a;
+}

@@ -1,0 +1,23 @@
+.line-container {
+    position: relative;
+    width: 2px;
+    height: 100vh;
+    background-color: #000;
+  }
+
+  .circle {
+    /* position: absolute; */
+    margin-bottom: 50px;
+    top: 50%;
+    left: -5px; /* Setengah dari lebar lingkaran untuk posisi tepat di tengah garis */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+
+
+#page4{
+    background-color: antiquewhite;
+    height: 100vh;
+}
