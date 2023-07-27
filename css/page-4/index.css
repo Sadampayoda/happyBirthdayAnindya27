@@ -3,11 +3,12 @@
     width: 2px;
     height: 100vh;
     background-color: #000;
+    margin-top: 10px;
   }
 
   .circle {
     /* position: absolute; */
-    margin-bottom: 50px;
+    margin-bottom: 36px;
     top: 50%;
     left: -5px; /* Setengah dari lebar lingkaran untuk posisi tepat di tengah garis */
     width: 10px;
@@ -16,8 +17,31 @@
     background-color: #000;
   }
 
+  .image-with-line {
+    display: flex;
+    align-items: center;
+  }
+
+  .image-with-line img {
+    width: 200px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto;
+    margin-right: 50px; /* Jarak antara gambar dengan garis horizontal */
+  }
+
+  .line {
+    flex: 1;
+    height: 2px;
+    background-color: #000;
+  }
+
+  /* .remove-bg{
+    background-color: transparent;
+  } */
+
+ 
+
 
 #page4{
-    background-color: antiquewhite;
+    background-color: #cdb4db;
     height: 100vh;
 }
