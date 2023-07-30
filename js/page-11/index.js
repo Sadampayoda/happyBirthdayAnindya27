@@ -33,7 +33,7 @@
 const imageContainers = document.querySelectorAll('.image-container');
 const zoomTexts = document.querySelectorAll('[id^="zoom-text-"]');
 const zoomImages = document.querySelectorAll('[id^="zoom-image-"]');
-const hide = document.querySelector('.hidden'); 
+const hide = document.querySelectorAll('[id^="hidden-"]'); 
 
 function showText(imageNum) {
   zoomImages.forEach((image, index) => {
@@ -54,6 +54,16 @@ function showText(imageNum) {
       hide.classList.add('hidden')
     }
   });
+
+//   hide.forEach((hiddens,index) => {
+//     if (index + 1 === imageNum) {
+//         // text.style.opacity = 1; // Tampilkan elemen kalimat pada gambar yang dipilih
+//         hiddens.classList.remove('hidden')
+//       } else {
+//         // text.style.opacity = 0; // Sembunyikan elemen kalimat pada gambar lain
+//         hiddens.classList.add('hidden')
+//       }
+//   })
 
 
   
