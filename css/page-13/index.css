@@ -1,0 +1,62 @@
+#page-13{
+    background-color: #303030;
+    height: 300vh;
+}
+
+.tele{
+    background-color: #87CEEB;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.bg-tele {
+    background: linear-gradient(to right,#1E90FF, #87CEEB);
+    /* background-color: #0a4f94; */
+    height: 80vh;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.pesan {
+    background: linear-gradient(to right,#1e90ff, #87CEEB);
+    border-radius: 35px;
+}
+
+.foto{
+    border-radius: 35px;
+}
+
+.chat-tele{
+    background-image: url("10.png");
+    height: 80vh;
+}
+
+.chat{
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.konten {
+    display: block;
+  }
+
+.konten-click{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.konten-click.active{
+    background-color: #1E90FF;
+    /* transform: ; */
+}
+
+
+.video{
+    width: 400px;
+    height: 400px;
+}
