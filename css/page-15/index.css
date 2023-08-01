@@ -1,0 +1,20 @@
+#page-15{
+    background-color: #ffffff;
+    height: 500vh;
+}
+
+.textTwit{
+    color: rgb(153, 148, 148);
+}
+
+.result {
+    animation: shake 1s linear; /* Animasi "shake" dengan durasi 1 detik */
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(5px); }
+  }

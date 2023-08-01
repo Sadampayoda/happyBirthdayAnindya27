@@ -1,6 +1,6 @@
 #page-13{
     background-color: #303030;
-    height: 300vh;
+    /* height: 700vh; */
 }
 
 .tele{
@@ -38,6 +38,12 @@
 .chat{
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.chat-me{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     border-top-right-radius: 40px;
 }
 
