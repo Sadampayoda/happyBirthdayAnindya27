@@ -1,0 +1,22 @@
+#page-17{
+    background-color: white;
+    height: 200vh;
+}
+
+.content-container-17 {
+    position: relative;
+  }
+
+.content-page-17 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    transition: opacity 0.5s;
+  }
+  
+
+.show-17 {
+    opacity: 1;
+}

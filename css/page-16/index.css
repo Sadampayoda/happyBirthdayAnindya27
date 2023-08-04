@@ -1,0 +1,67 @@
+#page-16{
+    background-color: #d3d3d3;
+    /* height: 300vh; */
+}
+
+.image-container-2 {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .image-container-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    border-radius: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ubah kebutuhan Anda untuk transparansi warna hitam */
+    z-index: 1; /* Atur z-index agar lapisan warna hitam di atas gambar */
+  }
+
+.image-rounded{
+    border-radius: 50px;
+}
+
+/* 
+  /* .text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* text-align: r; */
+
+/* 
+    padding: 10px;
+    color: white;
+    font-size: 70px;
+    z-index: 2; 
+  }  */
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.5); Ubah kebutuhan Anda untuk transparansi lapisan */
+    padding: 10px;
+    color: white;
+    font-size: 50px;
+    z-index: 2;
+  }
+  
+  .changing-text {
+    animation: changeText 6s infinite;
+    opacity: 0;
+  }
+  
+  @keyframes changeText {
+    0%, 50% {
+      opacity: 0;
+    }
+    50%, 100% {
+      opacity: 1;
+    }
+  }
