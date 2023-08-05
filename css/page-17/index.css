@@ -1,6 +1,6 @@
 #page-17{
     background-color: white;
-    height: 200vh;
+    /* height: 500vh; */
 }
 
 .content-container-17 {
@@ -19,4 +19,18 @@
 
 .show-17 {
     opacity: 1;
+}
+
+.wisata-left{
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+.wisata-right{
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
+}
+
+.img-wisata{
+  border-radius: 70px;
 }

@@ -2,7 +2,7 @@ const divs = document.querySelectorAll('.konten-click');
 const contents = document.querySelectorAll('.konten');
 
 // Fungsi untuk menampilkan konten yang sesuai dengan div yang diklik
-function showContent(index) {
+function showContent13(index) {
   // Sembunyikan semua konten terlebih dahulu
   contents.forEach((content) => {
     content.style.display = 'none';
@@ -23,9 +23,9 @@ function showContent(index) {
 // Tambahkan event listener untuk setiap div
 divs.forEach((div, index) => {
   div.addEventListener('click', () => {
-    showContent(index);
+    showContent13(index);
   });
 });
 
 // Tampilkan konten pertama secara default ketika halaman dimuat
-showContent(0);
+showContent13(0);

@@ -1,0 +1,20 @@
+#page-18{
+    background-color: black;
+    /* height: 50vh; */
+}
+
+.image-container-18 {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.image-container-18 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-container-18:hover {
+    transform: scale(1.2); /* Perbesar gambar saat disentuh */
+}
